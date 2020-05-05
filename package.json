@@ -1,0 +1,28 @@
+{
+  "name": "frontend-constructor",
+  "version": "1.0.0",
+  "description": "This package contains everything needed to lint, compile, transpile and optimize all assets needed for the frontend of an application or site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Rohleder",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-airbnb": "^4.4.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "extract-loader": "^5.0.1",
+    "file-loader": "^6.0.0",
+    "prettier": "1.19.1",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.0",
+    "stylelint-webpack-plugin": "^1.2.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
